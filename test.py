@@ -141,7 +141,7 @@ def sendMessage():
     bot.sendMessage(chat_id=chat_id, text=result)
 
 
-schedule.every(1).minutes.do(sendMessage)
+schedule.every(20).minutes.do(sendMessage)
 
 while True:
     schedule.run_pending()
