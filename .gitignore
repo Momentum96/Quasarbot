@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+*.csv
+.vscode
+.idea
+checkpoint
+*.spec
+__pycache__
+build
+dist
